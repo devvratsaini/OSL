@@ -60,8 +60,8 @@ void result(Process proc[],int n){
 	 	 cout<<proc[i].pid<<"\t\t"<<proc[i].at<<"\t\t"<<proc[i].bt<<"\t\t"<<ct[i]<<"\t\t"<< tat[i]<<"\t\t"<<wt[i]<<endl;
 	 }
 	 
-	 cout<<"Average TAT:"<<totaltat/n<<endl;
-	 cout<<"Average WT:"<<totalwt/n<<endl;
+	 cout<<"Average TAT:"<<(float)totaltat/n<<endl;
+	 cout<<"Average WT:"<<(float)totalwt/n<<endl;
 }
 
 int main(){
